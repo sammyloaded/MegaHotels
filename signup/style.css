@@ -179,7 +179,7 @@ input:focus {
   }
 
   .auth-form {
-    flex: 1;
+    flex: 2;
 
     .form-container {
       padding: 1.5rem;
