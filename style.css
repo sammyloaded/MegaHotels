@@ -221,7 +221,55 @@ font-family: "Inter", sans-serif;
   line-height: 1.5;
 }
 
-/* Our Hotels Section  */
+/* Our Hotels Section */
+
+.our-hotels {
+    background-color: #b208fb;
+    height: 759px;
+}
+.hotels {
+  margin: 0 82px 155px;
+}
+
+/* top row */
+.hotels-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+  
+}
+
+.hotel-title {
+    margin-left: 10px;
+  max-width: 600px;
+}
+
+.hotel-title h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hotel-title p {
+  color: #989898;
+  line-height: 1.5;
+}
+
+/* button */
+.view-more {
+    margin-top: 22px;
+    margin-right: 10px;
+  padding: 0.8rem 2.4rem;
+  border: 2px solid #1185ff;
+  border-radius: 5px;
+  color: #1185ff;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+
+}
+
+
 
 /* Responsiveness  */
 @media (max-width: 900px) 
