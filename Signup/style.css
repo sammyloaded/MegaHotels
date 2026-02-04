@@ -162,10 +162,12 @@ input:focus {
   color: #757575;
 }
 
-.signin-text a {
+.signin-text a{
+    font-style: bold;
+    font-weight: 700;
   color: #757575;
   text-decoration: none;
-  font-weight: 500;
+  
 }
 
 /* Responsive */
