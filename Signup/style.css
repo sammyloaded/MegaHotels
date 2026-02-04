@@ -65,6 +65,7 @@ body {
 }
 
 .subtitle {
+    margin-top: 24px;
     font-size: 18px;
     font-weight: 400;
     line-height: 100%;
@@ -188,65 +189,3 @@ input:focus {
   .auth-form {
     flex: 1;
 }
-/* .signup-page {
-    /* width: auto;
-    height: auto; 
-    display: flex;
-    justify-content: center; 
-    height: 100vh;
-    background-color: #F9F9F9;
-    gap: 76px;
-    font-family: 'Inter', sans-serif;
-}
-
-.signup-img {
-    height: 100%;
-}
-
-.details-side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-
-}
-
-.details-side h1 {
-    font-size: 50px;
-    font-family: inherit;
-    text-align: center;
-    font-weight: 700;
-    line-height: 39px;
-    color: #212121;
-    margin-top: 64px;
-    margin-bottom: 8px;
-    margin-left: 164px;
-    
-}
-
-.details-side p {
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    color: #616161;
-    margin-left: 164px;
-    padding-top: 24px;
-    padding-bottom: 44px;
-}
-
-.google-btn {
-    width: 240px;
-    height: 40px;
-    background-color: #e2e2e2;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    color: #212121;
-    cursor: pointer;
-    text-align: ;
-} */
