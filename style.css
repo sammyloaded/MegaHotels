@@ -1,1 +1,188 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #222;
+  font-family: 'Inter', sans-serif;
+}
+
+/* HERO SECTION */
+.hero {
+  min-height: 100vh;
+  background:
+    linear-gradient(
+      rgba(0, 90, 180, 0),
+      rgba(0, 90, 180, 0.75)
+    ),
+    url("assets/hero.png") center/cover no-repeat;
+  position: relative;
+  padding-bottom: 8rem;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.btn-signin {
+  background: #1185ff;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* HERO CONTENT */
+.hero-content {
+  padding: 4rem;
+  max-width: 700px;
+}
+
+.hero-content h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+/* SEARCH CARD */
+.search-card {
+  background: #fff;
+  width: 80%;
+  margin-top: 122px;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -4rem;
+}
+
+.search-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.search-card p {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+.search-fields {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem;
+}
+
+.field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-size: 0.8rem;
+  color: #555;
+  margin-bottom: 0.4rem;
+}
+
+.field input {
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.search-btn {
+  background: #1185ff;
+  color: #fff;
+  border: none;
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* WHY CHOOSE US */
+.why {
+  margin-top: 8rem;
+  padding: 4rem;
+  text-align: center;
+}
+
+.why h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.why-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.why-card {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.why-card img {
+  width: 45px;
+  margin-bottom: 1rem;
+}
+
+.why-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.why-card p {
+  font-size: 0.9rem;
+  color: #777;
+  line-height: 1.5;
+}
+
+
+/* Responsiveness  */
+@media (max-width: 900px) 
+{
+.nav-links {
+    display: none;
+
+}
+}
