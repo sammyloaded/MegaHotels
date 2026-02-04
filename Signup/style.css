@@ -158,10 +158,11 @@ input:focus {
   margin-top: 1.2rem;
   font-size: 0.85rem;
   text-align: center;
+  color: #757575;
 }
 
 .signin-text a {
-  color: #1a73e8;
+  color: #757575;
   text-decoration: none;
   font-weight: 500;
 }
