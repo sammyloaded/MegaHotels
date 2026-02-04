@@ -15,7 +15,7 @@ body {
 
 /* HERO SECTION */
 .hero {
-  min-height: 100vh;
+  height: 702px;
   background:
     linear-gradient(
       rgba(0, 90, 180, 0),
@@ -50,6 +50,7 @@ body {
   color: #fff;
   text-decoration: none;
   font-size: 0.95rem;
+  font-family: 'Inter', sans-serif;
 }
 
 .btn-signin {
@@ -72,6 +73,8 @@ body {
   font-size: 3.5rem;
   line-height: 1.2;
   font-weight: 700;
+  font-size: 64px;
+  font-family: 'Inter', sans-serif;
 }
 
 /* SEARCH CARD */
@@ -123,6 +126,25 @@ body {
   border-radius: 6px;
   border: 1px solid #ddd;
   outline: none;
+}
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-wrapper img {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 0.8rem 0.8rem 0.8rem 2.7rem;
 }
 
 .search-btn {
