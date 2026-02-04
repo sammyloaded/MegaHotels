@@ -15,6 +15,7 @@ body {
 
 /* HERO SECTION */
 .hero {
+    width: 100%;
   height: 702px;
   background:
     linear-gradient(
@@ -36,8 +37,12 @@ body {
 
 .logo {
   color: #fff;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0%;
+
 }
 
 .nav-links {
@@ -47,17 +52,21 @@ body {
 }
 
 .nav-links a {
+font-family: "Inter", sans-serif;
   color: #fff;
   text-decoration: none;
   font-size: 0.95rem;
   font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 .btn-signin {
   background: #1185ff;
   color: #fff;
   padding: 0.7rem 1.5rem;
-  border-radius: 6px;
+  border-radius: 8px;
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -75,11 +84,15 @@ body {
   font-weight: 700;
   font-size: 64px;
   font-family: 'Inter', sans-serif;
+  /* border: 2px, solid, white; */
+  margin-top: 80px;
+  margin-bottom: 112px;
 }
 
 /* SEARCH CARD */
 .search-card {
-  background: #fff;
+    font-family: 'Inter', sans-serif;
+  background: #FFFFFF;
   width: 80%;
   margin-top: 122px;
   /* margin: 0 auto; */
@@ -99,7 +112,7 @@ body {
 
 .search-card p {
   font-size: 0.9rem;
-  color: #777;
+  color: #959595;
   margin-bottom: 1.5rem;
 }
 
@@ -148,6 +161,9 @@ body {
 }
 
 .search-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   background: #1185ff;
   color: #fff;
   border: none;
@@ -157,8 +173,14 @@ body {
   font-size: 0.9rem;
 }
 
+.search-btn img {
+  width: 16px;
+}
 /* WHY CHOOSE US */
 .why {
+    
+    margin-left: 128px;
+    margin-right: 128px;
   margin-top: 8rem;
   padding: 4rem;
   text-align: center;
@@ -199,6 +221,7 @@ body {
   line-height: 1.5;
 }
 
+/* Our Hotels Section  */
 
 /* Responsiveness  */
 @media (max-width: 900px) 
