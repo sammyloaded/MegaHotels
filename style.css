@@ -1061,5 +1061,14 @@ text-align: center;
     width: 100%;
     justify-content: center;
   }
+
+  .hotel-card {
+    height: auto;
+    width: auto;
+  }
+
+  .hotels{
+  margin: 0px 20px 155px;
+  }
 }
 
