@@ -177,7 +177,7 @@ font-family: "Inter", sans-serif;
   width: 16px;
 }
 /* WHY CHOOSE US */
-.why {
+/* .why {
     
     margin-left: 128px;
     margin-right: 128px;
@@ -192,7 +192,25 @@ font-family: "Inter", sans-serif;
   font-size: 2rem;
   margin-bottom: 3rem;
   color: #333;
+} */
+
+.why {
+  margin-top: 8rem;
+  padding: 4rem 1.5rem;
+  text-align: center;
 }
+
+.why h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 auto;
+  max-width: 100%;
+  word-break: normal;
+  margin-bottom: 3rem;
+}
+
 
 .why-cards {
   display: grid;
