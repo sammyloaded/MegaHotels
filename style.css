@@ -607,7 +607,7 @@ font-family: "Inter", sans-serif;
 
 .testimonial-text {
     font-family: "Inter", sans-serif;
-  color: #989898;5%
+  color: #989898;
   line-height: 1.5mre;
   letter-spacing: 0%;
   margin-bottom: 2.5rem;
@@ -805,11 +805,15 @@ font-family: "Inter", sans-serif;
   display: flex;
   align-items: center;
   margin-bottom: 1.2rem;
+  gap: 11px;
 }
 
-.socials{
+.socials {
+  display: flex;
+  align-items: center;
   gap: 21px;
 }
+
 
 .contact-item span {
   gap: 22px;
@@ -819,6 +823,7 @@ font-family: "Inter", sans-serif;
 .contact-item a {
   font-family: "Inter", sans-serif;
   color: #d6e6f3;
+  padding-right: 11px 0px 11px;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -971,6 +976,13 @@ text-align: center;
   }
 }
 
+/* @media (max-width: 1024px) {
+.hotel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+} */
+
 
 @media (max-width: 600px) {
   .testimonial-grid {
@@ -1011,6 +1023,39 @@ text-align: center;
 
   .footer-col h4 {
     margin-bottom: 1rem;
+  }
+
+  .search-card {
+  margin-top: 2rem;  
+  z-index: 1;
+}
+
+.hero-content h1 {
+  margin-bottom: 2rem;
+}
+
+
+  .search-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .search-fields .field {
+    width: 100%;
+  }
+
+  .input-wrapper {
+    width: 100%;
+  }
+
+  .input-wrapper input {
+    width: 100%;
+  }
+
+  .search-btn {
+    width: 100%;
+    justify-content: center;
   }
 }
 
