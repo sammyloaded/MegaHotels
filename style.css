@@ -188,6 +188,7 @@ font-family: "Inter", sans-serif;
 }
 
 .why h2 {
+    font-family: "Inter", sans-serif;
   font-size: 2rem;
   margin-bottom: 3rem;
   color: #333;
@@ -202,6 +203,7 @@ font-family: "Inter", sans-serif;
 
 .why-card {
   background: #fff;
+  font-family: "Inter", sans-serif;
   padding: 2.5rem 2rem;
   border-radius: 14px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
@@ -213,11 +215,13 @@ font-family: "Inter", sans-serif;
 }
 
 .why-card h4 {
+    font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   margin-bottom: 0.8rem;
 }
 
 .why-card p {
+    font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   color: #777;
   line-height: 1.5;
@@ -261,6 +265,7 @@ font-family: "Inter", sans-serif;
 
 /* button */
 .view-more {
+    font-family: "Inter", sans-serif;
     margin-top: 22px;
     margin-right: 10px;
   padding: 0.8rem 2.4rem;
@@ -286,6 +291,7 @@ font-family: "Inter", sans-serif;
 .hotel-card h3{
     font-family: "Inter", sans-serif;
     font-size: 22px;
+    font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
     margin-top: 8px;
@@ -293,6 +299,7 @@ font-family: "Inter", sans-serif;
 }
 
 .hotel-card p{
+    font-family: "Inter", sans-serif;
     padding-left: 8px;
 }
 
