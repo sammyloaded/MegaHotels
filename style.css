@@ -740,6 +740,7 @@ font-family: "Inter", sans-serif;
 
 /* footer section  */
 .footer {
+  width: 100%;
   background-color: #043b69;
   padding: 5rem 6rem;
   font-family: "Inter", sans-serif;
@@ -753,12 +754,18 @@ font-family: "Inter", sans-serif;
 
 
 .footer-col.brand h3 {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
   color: #fff;
-  font-size: 1.6rem;
   margin-bottom: 44px;
 }
 
 .footer-col.brand p {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-weight: 400;
   color: #d6e6f3;
   line-height: 1.6;
   max-width: 260px;
@@ -767,22 +774,27 @@ font-family: "Inter", sans-serif;
 
 
 .footer-col h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
   color: #fff;
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 47px;
 }
 
 
 .footer-col ul {
+  font-family: "Inter", sans-serif;
   list-style: none;
   padding: 0;
 }
 
 .footer-col ul li {
+  font-family: "Inter", sans-serif;
   margin-bottom: 1rem;
 }
 
 .footer-col ul li a {
+  font-family: "Inter", sans-serif;
   color: #d6e6f3;
   text-decoration: none;
   font-size: 1rem;
@@ -792,15 +804,20 @@ font-family: "Inter", sans-serif;
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
   margin-bottom: 1.2rem;
 }
 
+.socials{
+  gap: 21px;
+}
+
 .contact-item span {
+  gap: 22px;
   color: #fff;
 }
 
 .contact-item a {
+  font-family: "Inter", sans-serif;
   color: #d6e6f3;
   text-decoration: none;
   font-size: 1rem;
