@@ -235,7 +235,7 @@ font-family: "Inter", sans-serif;
   height: auto; 
 }
 
-/* top row */
+
 .hotels-top {
   display: flex;
   justify-content: space-between;
@@ -259,7 +259,7 @@ font-family: "Inter", sans-serif;
   line-height: 1.5;
 }
 
-/* button */
+
 .view-more {
     font-family: "Inter", sans-serif;
     margin-top: 22px;
@@ -338,7 +338,6 @@ font-family: "Inter", sans-serif;
   gap: 4rem;
 }
 
-/* LEFT */
 .resort-left h2 {
     font-family: "Inter", sans-serif;
   font-size: 3rem;
@@ -382,13 +381,12 @@ font-family: "Inter", sans-serif;
   place-items: center;
 }
 
-/* RIGHT */
 .resort-right {
   cursor: pointer;
   position: relative;
 }
 
-/* MAIN IMAGE */
+
 .main-image {
   position: relative;
   z-index: 2;
@@ -416,7 +414,7 @@ font-family: "Inter", sans-serif;
   font-size: 2rem;
 }
 
-/* 🔥 BACK CONTAINER */
+
 .back-panel {
   position: absolute;
   top: 250px;                
@@ -433,7 +431,7 @@ font-family: "Inter", sans-serif;
   justify-content: center;
 }
 
-/* THUMBNAILS POP OUT */
+
 .thumbs {
   display: flex;
   gap: 1.2rem;
@@ -449,7 +447,7 @@ font-family: "Inter", sans-serif;
   background: #fff;
 }
 
-/* ARROWS */
+
 .arrow {
   position: absolute;
   top: 50%;
@@ -501,13 +499,13 @@ font-family: "Inter", sans-serif;
   padding: 4rem 2rem;
 }
 
-/* CONTAINER */
+
 .stats-container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* TITLE */
+
 .stats-title {
     height: 88px;
   text-align: center;
@@ -595,6 +593,7 @@ font-family: "Inter", sans-serif;
 
 
 .testimonial-card {
+    font-family: "Inter", sans-serif;
   background: #fff;
   padding: 2.5rem;
   border-radius: 12px;
@@ -607,8 +606,10 @@ font-family: "Inter", sans-serif;
 }
 
 .testimonial-text {
-  color: #7a7a7a;
-  line-height: 1.6;
+    font-family: "Inter", sans-serif;
+  color: #989898;5%
+  line-height: 1.5mre;
+  letter-spacing: 0%;
   margin-bottom: 2.5rem;
 }
 
@@ -620,6 +621,7 @@ font-family: "Inter", sans-serif;
 }
 
 .user {
+    font-family: "Inter", sans-serif;
   display: flex;
   align-items: center;
   gap: 0.8rem;
@@ -631,11 +633,37 @@ font-family: "Inter", sans-serif;
   border-radius: 50%;
   object-fit: cover;
 }
+.user h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-size: 13px;
+}
+
+.user p{
+    font-size: 12px;
+    color: #989898;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.user strong{
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
 
 .user span {
+  font-family: "Inter", sans-serif;
   display: block;
-  font-size: 0.85rem;
-  color: #7a7a7a;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
 }
 
 .stars {
