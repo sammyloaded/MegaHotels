@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.side-nav{
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    background-color: #0788FF;
+    padding: 8rem 0.5rem;
+
+}
+
+.nav{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.selected-nav{
+    background-color: white;
+    color: #0788FF;
+}
+
+.dashboard-container{
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.header-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: White;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.022), 0 6px 20px 0 rgba(0, 0, 0, 0.083);
+}
+
+.header-section p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.profile-notification-icon{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.profile-and-icon{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.profile-and-icon p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.find-hotel-section{
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+    padding: 5rem 2rem;
+}
+
+.find-hotel-section p{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.date-time-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.date-and-time-section{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.date-and-time-section p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+    padding: 1rem 12rem 1rem 1rem;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    color: #AEAEAE;
+}
+
+.search{
+    padding: 1rem 2rem;
+    background-color: #0788FF;
+    color: white;
+    border-radius: 12px;
+}
