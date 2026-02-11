@@ -388,4 +388,82 @@
     object-fit: contain;
 }
 
+.most-popular-section {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.popular-tabs {
+    display: flex;
+    gap: 3rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.popular-tabs p {
+    color: #9a9a9a;
+    cursor: pointer;
+}
+
+.active-tab {
+    color: black !important;
+}
+
+.popular-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.popular-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+    transition: 0.2s ease;
+}
+
+.popular-card:hover {
+    transform: translateY(-4px);
+}
+
+.popular-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.popular-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-details h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.popular-details .location {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.popular-details .price p {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.popular-details .price span {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+
 
