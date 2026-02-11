@@ -43,7 +43,7 @@ megahotels/
 └── assets/
     └── images/       # Images and icons
 │
-└├── Dashboard/
+└├── Dash/
     └── index.html     # Main stylesheet
 │   └── style.css     # Main stylesheet
 └── assets/
