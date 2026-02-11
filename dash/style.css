@@ -466,4 +466,64 @@
 }
 
 
+/* ======= TABLET ========= */
+
+
+@media (max-width: 1024px) {
+
+    .side-nav {
+        display: none;
+        width: 20%;
+        padding: 6rem 0.5rem;
+    }
+
+    .dashboard-container {
+        width: 100%;
+    }
+
+    .find-hotel-and-sheraton-hotel-section {
+        flex-direction: column;
+    }
+
+    .find-hotel-section,
+    .hotel-detils {
+        width: 100%;
+        padding: 3rem 2rem;
+    }
+
+    .hotel-images {
+        flex-direction: column;
+    }
+
+    .hotel-images img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .hotel-image-grid {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .hotel-image-grid img {
+        width: 48%;
+        height: 120px;
+    }
+
+    .hotels-cards {
+        overflow-x: auto;
+    }
+
+    .hotel-card {
+        min-width: 220px;
+    }
+
+    .popular-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
 
