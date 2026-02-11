@@ -596,22 +596,29 @@
         grid-template-columns: 1fr;
     }
 
-    .popular-card {
+     .popular-card {
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .popular-card img {
+        width: 100%;
+        height: 180px;
     }
 
     .popular-details {
+        width: 100%;
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
         gap: 0.5rem;
     }
 
-    .hotel-images img {
-        width: 100%;
-        /* height: 200px; */
+    .popular-details .price {
+        display: flex;
+        gap: 5px;
+        align-items: baseline;
     }
-
 }
 
 
