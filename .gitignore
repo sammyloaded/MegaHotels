@@ -4,3 +4,5 @@
 # Git attributes file
 .gitattributes
 
+# Gitignore File
+.gitignore
