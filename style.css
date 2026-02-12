@@ -264,6 +264,7 @@ font-family: "Inter", sans-serif;
 
 .hotel-title {
     margin-left: 10px;
+    margin-right: 10px;
   max-width: 600px;
 }
 
@@ -316,6 +317,8 @@ font-family: "Inter", sans-serif;
 .hotel-card p{
     font-family: "Inter", sans-serif;
     padding-left: 8px;
+    color: #858585;
+    font-size: 13px;
 }
 
 
