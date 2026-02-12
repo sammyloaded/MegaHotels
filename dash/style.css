@@ -331,6 +331,7 @@
 }
 
 .hotel-card {
+    cursor: pointer;
     width: 100%;
     background: white;
     border-radius: 8px;
@@ -381,7 +382,7 @@
 }
 
 .card-bottom {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -430,6 +431,7 @@
 }
 
 .popular-grid {
+    cursor: pointer;
     margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
