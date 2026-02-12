@@ -39,7 +39,15 @@
     column-gap: 1rem;
     color: white;
     padding: 1rem 2rem;
+
 }
+
+.menu-icon {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
 
 .selected-nav{
     background-color: white;
@@ -493,6 +501,11 @@
 
 @media (max-width: 1024px) {
 
+    .menu-icon {
+  display: none;
+}
+
+
     .side-nav {
         display: none;
         width: 20%;
@@ -552,6 +565,9 @@
 
 @media (max-width: 768px) {
 
+    .menu-icon {
+    display: block;
+  }
     .main-container {
         flex-direction: column;
     }
