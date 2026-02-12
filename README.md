@@ -30,22 +30,26 @@ The goal of this project is to demonstrate solid front-end fundamentals and UI t
 ## 📂 Project Structure
 
 ```bash
-megahotels/
+MEGAHOTELS/
 │
-├── index.html        # Landing page
-├── style.css         # Main Stylesheet
-├└── assets/
-    └── images/       # Images and icons
+├── assets/
 │
-├── Signnup/
-    └── index.html     # Main stylesheet
-│   └── style.css     # Main stylesheet
-└── assets/
-    └── images/       # Images and icons
+├── dash/
+│   ├── assets/
+│   ├── index.html
+│   └── style.css
 │
-└├── Dash/
-    └── index.html     # Main stylesheet
-│   └── style.css     # Main stylesheet
-└── assets/
-    └── images/       # Images and icons
+├── signin/
+│   ├── index.html
+│   └── style.css
+│
+├── signup/
+│   ├── assets/
+│   ├── index.html
+│   └── style.css
+│
+├── index.html
+├── style.css
+├── .gitignore
+└── README.md
 ```
