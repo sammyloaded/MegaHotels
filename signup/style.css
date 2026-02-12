@@ -200,8 +200,9 @@ input:focus {
 }
 }
 
-@media (max-width: 1024px) 
+@media (max-width: 1024px) {
 
   .auth-form {
     flex: 1;
+}
 }
